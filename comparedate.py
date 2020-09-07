@@ -19,7 +19,7 @@ while(True):
     """
     Datum aus Datei lesen und in var speichern
     Newsdate mit altem Datum vergleichen
-    1. newsdate == olddate -> nix neues
+    1. newsdate == olddate -> Nichts neues
     2. newsdate > olddate -> neuer post
     --> print
     --> newsdate speichern
