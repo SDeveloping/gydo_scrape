@@ -35,7 +35,7 @@ while(True):
         print("Nix neues")
     else:
         print("Neuer Beitrag")
-        Client("ujdgh7fot6iyoevv54bi1nuobv92kt").send_message("Neuer Post!", title="GyDo_Scrape")
+        Client("ujdgh7fot6iyoevv54bi1nuobv92kt").send_message(f"Neuer Post vom {newdate}!", title="GyDo_Scrape")
         with open("datelog.txt", mode="w") as result:
             result.write(newdate)
 
